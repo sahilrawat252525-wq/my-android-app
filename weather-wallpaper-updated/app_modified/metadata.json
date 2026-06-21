@@ -1,0 +1,6 @@
+{
+  "name": "Weather Wallpaper",
+  "description": "An Android application that automatically updates your lock screen wallpaper to reflect modern real-time local weather conditions throughout the day.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
