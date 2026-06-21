@@ -12,9 +12,11 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         
-    - name: Generate Wrapper Files
+    - name: Generate Wrapper and Missing Files
       run: |
         cd weather-wallpaper-updated/app_modified
+        # Create the missing hidden file that broke the previous build
+        touch .env.example
         gradle wrapper
         
     - name: Build APK
